@@ -1,0 +1,71 @@
+-	npm create vite@latest
+	project name : responsive_bank_website
+	react
+	react (Javascript)
+	
+-	npm install
+-	npm run dev
+-	npm i -D tailwindcss postcss autoprefixer
+-	npx tailwindcss init -p
+-	app.tsx in write "rafce"
+-	Add mew folder > src > constants
+-	Add new FileJs > constants > index.js
+-	Add new FileJs > src > style.js
+-	Add new Folder > src > components
+-	Add new FileJs > components >
+	- Billing.jsx
+	- Business.jsx
+	- Button.jsx
+	- CardDeal.jsx
+	- Clients.jsx
+	- CTA.jsx
+	- FeedbackCard.jsx
+	- Footer.jsx
+	- GetStarted.jsx
+	- Hero.jsx
+	- Navbar.jsx
+	- Stats.jsx
+	- Testimonials.jsx
+	- index.js
+
+-	insert new code in tailwind.config.cjs
+	/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  mode: "jit",
+  theme: {
+    extend: {
+      colors: {
+        primary: "#00040f",
+        secondary: "#00f6ff",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+    },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
+    },
+  },
+  plugins: [],
+};
+
+
+-	Add new value in package.json > homepage
+	  "name": "react-portfolio-tech",
+  	"homepage":"./",
+  	"version": "0.1.0",
+
+-	npm run build
+-	netlify deploy
+
+
+
+
